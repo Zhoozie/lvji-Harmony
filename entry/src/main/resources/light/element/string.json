@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "V1.0.0"
+    },
+    {
+      "name": "entryability_desc",
+      "value": "你的专属旅游搭子"
+    },
+    {
+      "name": "entryability_label",
+      "value": "旅迹"
+    },
+    {
+      "name": "app_name",
+      "value": "旅迹"
+    },
+    {
+      "name": "splash_name",
+      "value": "探索"
+    }
+  ]
+}

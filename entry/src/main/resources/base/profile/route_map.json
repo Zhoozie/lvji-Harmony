@@ -1,0 +1,123 @@
+{
+  "routerMap": [
+    {
+      "name": "Login",
+      "pageSourceFile": "src/main/ets/pages/Login.ets",
+      "data": {
+        "title": "登录"
+      },
+      "buildFunction": "LoginBuilder"
+    },
+    {
+      "name": "Register",
+      "pageSourceFile": "src/main/ets/pages/Register.ets",
+      "data": {
+        "title": "注册"
+      },
+      "buildFunction": "RegisterBuilder"
+    },
+    {
+      "name": "Index",
+      "pageSourceFile": "src/main/ets/pages/Index.ets",
+      "data": {
+        "title": "首页"
+      },
+      "buildFunction": "IndexBuilder"
+    },
+    {
+      "name": "JourneyAdd",
+      "pageSourceFile": "src/main/ets/pages/Journey/Add.ets",
+      "data": {
+        "title": "创建攻略"
+      },
+      "buildFunction": "JourneyAddBuilder"
+    },
+    {
+      "name": "JourneyEdit",
+      "pageSourceFile": "src/main/ets/pages/Journey/Edit.ets",
+      "data": {
+        "title": "编辑攻略"
+      },
+      "buildFunction": "JourneyEditBuilder"
+    },
+    {
+      "name": "TripAdd",
+      "pageSourceFile": "src/main/ets/pages/Journey/Trip/Add.ets",
+      "data": {
+        "title": "添加行程"
+      },
+      "buildFunction": "TripAddBuilder"
+    },
+    {
+      "name": "Info",
+      "pageSourceFile": "src/main/ets/pages/Person/Info/Index.ets",
+      "data": {
+        "title": "个人资料"
+      },
+      "buildFunction": "InfoBuilder"
+    },
+    {
+      "name": "Setting",
+      "pageSourceFile": "src/main/ets/pages/Person/Setting/Index.ets",
+      "data": {
+        "title": "设置"
+      },
+      "buildFunction": "SettingBuilder"
+    },
+    {
+      "name": "Account",
+      "pageSourceFile": "src/main/ets/pages/Person/Setting/Account/Index.ets",
+      "data": {
+        "title": "账号与安全"
+      },
+      "buildFunction": "AccountBuilder"
+    },
+    {
+      "name": "VerifyPhone",
+      "pageSourceFile": "src/main/ets/pages/Person/Setting/Account/VerifyPhone.ets",
+      "data": {
+        "title": "手机号验证"
+      },
+      "buildFunction": "VerifyPhoneBuilder"
+    },
+    {
+      "name": "Modify",
+      "pageSourceFile": "src/main/ets/pages/Person/Setting/Account/Modify.ets",
+      "data": {
+        "title": "修改密码"
+      },
+      "buildFunction": "ModifyBuilder"
+    },
+    {
+      "name": "Delete",
+      "pageSourceFile": "src/main/ets/pages/Person/Setting/Account/Delete.ets",
+      "data": {
+        "title": "注销"
+      },
+      "buildFunction": "DeleteBuilder"
+    },
+    {
+      "name": "Introduce",
+      "pageSourceFile": "src/main/ets/pages/Person/About/Introduce.ets",
+      "data": {
+        "title": "关于旅迹"
+      },
+      "buildFunction": "IntroduceBuilder"
+    },
+    {
+      "name": "Privacy",
+      "pageSourceFile": "src/main/ets/pages/Person/About/Privacy.ets",
+      "data": {
+        "title": "隐私协议"
+      },
+      "buildFunction": "PrivacyBuilder"
+    },{
+      "name": "Protocol",
+      "pageSourceFile": "src/main/ets/pages/Person/About/Protocol.ets",
+      "data": {
+        "title": "用户协议"
+      },
+      "buildFunction": "ProtocolBuilder"
+    }
+  ]
+}

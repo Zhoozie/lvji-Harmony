@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "000000188F337979F7F24CAA12A5D0DEC967351D0590FDD567C794A807C3BE9B8911EE54965C184C",
+          "certpath": "D:/WorkCode/Huawei/key/旅迹发布.cer",
+          "keyAlias": "lvji_release",
+          "keyPassword": "0000001897B6D707D4156DC3ECE93C87C75E383609DA88A05BDC87E0130CB9338FB10E769011403E",
+          "profile": "D:/WorkCode/Huawei/key/旅迹发布Release.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "D:/WorkCode/Huawei/key/lvji_release.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:entryability_desc",
+        "label": "$string:entryability_label",
+        "startWindowIcon": "$media:start_icon",
+        "startWindowBackground": "$color:white",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "routerMap": "$profile:route_map",
+    "metadata": [
+      {
+        "name": "appgallery_privacy_hosted",
+        "value": "0"
+      },
+      {
+        "name": "appgallery_privacy_link_privacy_statement",
+        "value": "https://agreement-drcn.hispace.dbankcloud.cn/index.html?lang=zh&agreementId=1578310255132038080" // 必须是https网址
+      }
+    ]
+  }
+}
